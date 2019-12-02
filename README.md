@@ -24,6 +24,7 @@ First, create a .csv file called DPdata.csv with the following four columns of d
   
 The code will not work if any of the D or P counts equal 0, these samples should be removed before running. If any of the samples have a D or P count equal to 1, a warning message will be returned, but the code will still execute. The code can be copied into the R or RStudio console or copied into a new R script file and run from there.
 
+
 <B>Iph_Bootstrap_script</B>
 
 First, create a .csv file called IphData.csv with the following four columns of data: 1) “Depth”, “Age”, or “Sample No”; 2) “C4xeric” for the saddle counts; 3) “C4mesic” for the bilobate + cross counts; and 4)”Iph” for the calculated Iph index values.
