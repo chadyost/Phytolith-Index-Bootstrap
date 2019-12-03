@@ -5,7 +5,7 @@
 # This script calculates bootstrapped 95% confidence intervals for phytolith
 # D/P (tree cover) index values by reading the individual D and P counts for
 # each sample listed in a .csv file. The upper and lower confidence interval
-# bounds for each sampe are saved into a new .csv file.   
+# bounds for each sample are saved into a new .csv file.   
 
 # Load R packages with routines needed for the BCa Bootstrap CI code.
 library(boot)
