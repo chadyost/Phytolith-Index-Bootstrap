@@ -5,7 +5,7 @@
 # This script calculates bootstrapped 95% confidence intervals for phytolith
 # Iph (aridity) index values by reading the individual saddle and lobate
 # phytolith counts for each sample listed in a .csv file. The upper and lower
-# confidence intervalbounds for each sampe are saved into a new .csv file.
+# confidence intervalbounds for each sample are saved into a new .csv file.
 
 # Load R packages with routines needed for the BCa Bootstrap CI code.
 library(boot)
